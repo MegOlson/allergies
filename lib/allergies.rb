@@ -9,7 +9,12 @@ public def allergies
         allergy_output.push(value)
         number_input -= key
       end
-  end
+    end
   end
   return allergy_output
 end
+
+user_number = ""
+puts "Enter your allergy number"
+user_number = gets.chomp
+puts user_number.to_i.allergies

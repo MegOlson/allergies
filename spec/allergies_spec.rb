@@ -8,4 +8,7 @@ describe("#allergies") do
   it("returns all allergies for a given score") do
     expect(9.allergies).to(eq(["strawberries", "eggs"]))
   end
+  it("gets gets user input and returns all allergies for a given score") do
+    expect(20.allergies).to(eq(["tomatoes", "shellfish"]))
+  end
 end
